@@ -1,0 +1,169 @@
+/* Stylesheet by Randy Sincoular 16-Jan-17 */
+
+
+
+/* Custom CSS for Leaflet Lab */
+
+#map {
+	height: 450px;
+	margin: 15px auto;
+	}
+
+/* Format Leaflet Popup */
+.leaflet-popup-content p {
+	margin: 1.5em 3;
+}
+
+
+
+/* Message about clicking slider to change year */
+.info {
+	color: blue;
+}
+
+/* Leaflet Popup Symbols */
+.leaflet-popup-content-wrapper {
+	background-color: darkkhaki;
+	opacity: .8;
+	box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+}
+
+.leaflet-popup-content {
+	margin: 10px 19px;
+	line-height: .5;
+	color: midnightblue;
+	}
+
+
+
+/* Add 22-Feb-17 for map sizing */
+#wrapper {
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+}
+
+
+/* add 22-Feb-17 for map sizing */
+html {
+	background-color: gray;
+	
+}
+
+#project_title {
+  	color: #1fd61f;
+  	background-color: #020212;
+	font-size: 48px;
+	width: 100%;
+	
+  /* padding-left: 7%; */
+	
+}
+
+/* add 22-Feb-17 for map sizing */
+body {
+	width: 960px;
+	height: 600px;
+	padding: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: black;
+}
+
+
+/* Circle legend */
+.legend {
+	padding: 6px 10px;
+	font: 14px/16px Arial, Helvetica, sans-serif;
+	background: green;
+
+	
+	/* Background fill color of legend */
+	background: #c0c5c7;  
+	
+	/* Shadow around each legend */
+	box-shadow: 0 0 1px green;
+	
+	border-radius: 1px;
+	
+}
+
+/* Data Source text in lower left of map */
+.dataSource {
+	color: gray;
+}
+/* Population Display in Slider Control.  Lower Left on Map*/
+
+.temporal-legend {
+	padding: 10px 10px;
+	
+	font: 14px/16px Arial, Helvetica, sans-serif;
+	background: green;
+
+	/* Background fill color of legend */
+	background: lightblue;  
+	
+	/* Shadow around legend */
+	box-shadow: 0 0 1px green;
+	
+	border-radius: 5px;
+	
+}
+
+/* Border around the range-slider */
+
+.leaflet-bottom.leaflet-left {
+	background: #bac1c4;
+	padding: 10px;		/* increasing this gives more padding at top of the population */
+	box-shadow: 0 0 1px green;
+	color: blue;
+	left: 10px;
+	bottom: 20px;		/* amount to raise from bottom of page */
+}
+
+/* Range slider control */
+.range-slider {
+	color: green;
+	border: yellow;
+	font-size: 10px;
+	padding-bottom: 1px;	/* this is the space just below the horizontal slider bar */
+	
+}
+
+/* County Population Title - Lower right of map */
+#legendTitle {
+	text-align: center;
+	margin-bottom: 15px;
+	font-variant: small-caps;
+	opacity: .5;
+	
+}
+
+/* Container holding the circle legend */
+.symbolsContainer {
+	float: left;
+	margin-left: 60px;
+	
+}
+
+.legendCircle {
+	border-radius: 50%;
+	border: 1px solid "green";
+	
+	background: green;
+	
+	opacity: .3;
+	
+	color: midnightblue;
+	
+	display: inline-block;
+}
+
+/* Actual population values for each of the 3 circles in the legend */
+.legendValue {
+	position: absolute;
+	right: 8px;
+	opacity: 1.2;
+    
+}
+
