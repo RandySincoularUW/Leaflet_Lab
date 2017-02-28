@@ -113,7 +113,8 @@ body {
 /* Border around the range-slider */
 
 .leaflet-bottom.leaflet-left {
-	background: #bac1c4;
+	/* background: #bac1c4; */
+	background: white;
 	padding: 10px;		/* increasing this gives more padding at top of the population */
 	box-shadow: 0 0 1px green;
 	color: blue;
