@@ -79,7 +79,8 @@ body {
 
 	
 	/* Background fill color of legend */
-	background: #c0c5c7;  
+	/* background: #c0c5c7;  */
+	background: white;
 	
 	/* Shadow around each legend */
 	box-shadow: 0 0 1px green;
