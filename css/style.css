@@ -152,7 +152,9 @@ body {
 	border-radius: 50%;
 	border: 1px solid "green";
 	
-	background: green;
+	/* background: green; */
+	
+	background-color: rgba(86, 190, 122, 0.4);
 	
 	opacity: .3;
 	
